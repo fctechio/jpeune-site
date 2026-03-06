@@ -1,0 +1,350 @@
+/* ==========================================================================
+   JPe UNE — home.css
+   Styles specific to index.html (homepage)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Hero Section
+   -------------------------------------------------------------------------- */
+.hero {
+  position: relative;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  background-color: var(--near-black);
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.18;
+  filter: grayscale(1);
+}
+
+/* Diagonal gold accent */
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, var(--gold-mid));
+}
+
+.hero__content {
+  position: relative;
+  z-index: var(--z-raised);
+  padding-block: var(--space-24);
+  max-width: 680px;
+}
+
+.hero__eyebrow {
+  /* inherits .eyebrow from global */
+}
+
+.hero__title {
+  color: var(--white);
+  margin-bottom: var(--space-6);
+}
+
+.hero__title em {
+  color: var(--gold-mid);
+  font-style: normal;
+}
+
+.hero__subtitle {
+  font-size: var(--text-lg);
+  color: rgba(255,255,255,.72);
+  margin-bottom: var(--space-10);
+  max-width: 52ch;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+
+/* --------------------------------------------------------------------------
+   Areas de Atuação — card strip
+   -------------------------------------------------------------------------- */
+.areas {
+  background-color: var(--gray-bg);
+}
+
+.areas__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-6);
+  margin-top: var(--space-10);
+}
+
+.area-card {
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8) var(--space-6);
+  border-left: 3px solid var(--gold-mid);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.area-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.area-card__icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: var(--space-4);
+  color: var(--gold-deep);
+}
+
+.area-card__title {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-2);
+}
+
+.area-card__desc {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  max-width: none;
+}
+
+
+/* --------------------------------------------------------------------------
+   Sobre Nos — split layout
+   -------------------------------------------------------------------------- */
+.sobre {
+  background-color: var(--white);
+}
+
+.sobre__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(var(--space-10), 6vw, var(--space-20));
+  align-items: center;
+}
+
+.sobre__image-wrap {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4/5;
+  background-color: var(--gray-bg);
+}
+
+.sobre__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Gold border accent */
+.sobre__image-wrap::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: 8px;
+  bottom: 8px;
+  border: 2px solid var(--gold-mid);
+  border-radius: var(--radius-lg);
+  z-index: -1;
+}
+
+.sobre__text .btn {
+  margin-top: var(--space-8);
+}
+
+@media (max-width: 768px) {
+  .sobre__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre__image-wrap {
+    aspect-ratio: 16/9;
+  }
+
+  .sobre__image-wrap::before {
+    display: none;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Diferenciais — dark section with icon list
+   -------------------------------------------------------------------------- */
+.diferenciais-home {
+  background-color: var(--near-black);
+  color: var(--white);
+}
+
+.diferenciais-home .section-header p {
+  color: rgba(255,255,255,.7);
+}
+
+.diferenciais-home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-6);
+  margin-top: var(--space-10);
+}
+
+.diferencial-card {
+  padding: var(--space-8) var(--space-6);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--transition-base), background-color var(--transition-base);
+}
+
+.diferencial-card:hover {
+  border-color: var(--gold-mid);
+  background-color: rgba(213,176,52,.05);
+}
+
+.diferencial-card__number {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  color: var(--gold-mid);
+  opacity: 0.4;
+  line-height: 1;
+  margin-bottom: var(--space-3);
+}
+
+.diferencial-card__title {
+  color: var(--white);
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-3);
+}
+
+.diferencial-card__desc {
+  font-size: var(--text-sm);
+  color: rgba(255,255,255,.6);
+  max-width: none;
+}
+
+
+/* --------------------------------------------------------------------------
+   Depoimentos — testimonials
+   -------------------------------------------------------------------------- */
+.depoimentos {
+  background-color: var(--gray-bg);
+}
+
+.depoimentos__track {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
+  margin-top: var(--space-10);
+}
+
+.depoimento-card {
+  background-color: var(--white);
+  padding: var(--space-8) var(--space-6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.depoimento-card::before {
+  content: '\201C';
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-6);
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--gold-light);
+  opacity: 0.4;
+}
+
+.depoimento-card__text {
+  font-size: var(--text-sm);
+  line-height: 1.75;
+  color: var(--near-black);
+  margin-bottom: var(--space-6);
+}
+
+.depoimento-card__author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.depoimento-card__avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--gray-bg);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.depoimento-card__name {
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+.depoimento-card__role {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+
+/* --------------------------------------------------------------------------
+   CTA Banner
+   -------------------------------------------------------------------------- */
+.cta-banner {
+  background: linear-gradient(135deg, var(--gold-deep) 0%, var(--gold-mid) 100%);
+  text-align: center;
+  padding-block: clamp(var(--space-12), 7vw, var(--space-20));
+}
+
+.cta-banner h2 {
+  color: var(--white);
+  margin-bottom: var(--space-4);
+}
+
+.cta-banner p {
+  color: rgba(255,255,255,.85);
+  font-size: var(--text-lg);
+  margin-inline: auto;
+  margin-bottom: var(--space-8);
+}
+
+.cta-banner .btn-white {
+  font-size: var(--text-base);
+}
+
+
+/* --------------------------------------------------------------------------
+   Section header utility (used across home sections)
+   -------------------------------------------------------------------------- */
+.section-header {
+  margin-bottom: var(--space-2);
+}
+
+.section-header h2 {
+  margin-bottom: var(--space-4);
+}
+
+.section-header p {
+  font-size: var(--text-lg);
+  color: var(--text-muted);
+  max-width: 56ch;
+}
+
+.section-header--center {
+  text-align: center;
+}
+
+.section-header--center p {
+  margin-inline: auto;
+}
