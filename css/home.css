@@ -17,7 +17,7 @@
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1600&q=80');
+  background-image: url('../images/bg.jpg');
   background-size: cover;
   background-position: center;
   opacity: .22;
@@ -216,6 +216,14 @@
 }
 .about-strip__visual {
   position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.about-strip__visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
 }
 .about-strip__badge {
   position: absolute;
@@ -314,7 +322,7 @@
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .diferenciais-grid { grid-template-columns: repeat(2, 1fr); }
   .about-strip__inner { grid-template-columns: 1fr; }
-  .about-strip__visual { display: none; }
+  .about-strip__visual { max-width: 480px; margin: 0 auto; }
 }
 
 @media (max-width: 768px) {
