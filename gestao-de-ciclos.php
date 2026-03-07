@@ -3,26 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gestão de Ciclos | JPe UNE</title>
-  <meta name="description" content="Gestão de Ciclos JPe UNE: cobrimos todo o caminho, do recebimento da demanda até o encerramento definitivo, com auditagem estratégica e atuação sob medida.">
-  <meta property="og:title" content="Gestão de Ciclos: da Inteligência à Resolução | JPe UNE">
-  <meta property="og:description" content="Gestão ponta a ponta do contencioso com ciclos estruturados, auditagem estratégica e intervenções precisas no momento certo.">
-  <link rel="icon" type="image/png" href="images/favi.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/pages.css">
+
+  <!-- SEO Principal -->
+  <title>Gestão de Ciclos Processuais | JPe UNE — Da Demanda ao Encerramento</title>
+  <meta name="description" content="Gestão completa do contencioso: do recebimento da demanda ao encerramento definitivo. Ciclos estruturados com auditagem estratégica e intervenções precisas no momento certo. Atuação nacional.">
+  <meta name="keywords" content="gestão de ciclos processuais, gestão contencioso ponta a ponta, auditagem estratégica, encerramento definitivo demandas, gestão passivos Brasil">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/gestao-de-ciclos">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/gestao-de-ciclos">
+  <meta property="og:title" content="Gestão de Ciclos Processuais | JPe UNE — Da Demanda ao Encerramento">
+  <meta property="og:description" content="Gestão ponta a ponta do contencioso com ciclos estruturados, auditagem estratégica e intervenções precisas no momento certo. Do recebimento ao encerramento definitivo.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gestão de Ciclos Processuais | JPe UNE">
+  <meta name="twitter:description" content="Gestão completa do contencioso: do recebimento da demanda ao encerramento definitivo. Ciclos estruturados com auditagem estratégica.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
 </head>
 <body>
 
 <?php include 'includes/header.php'; ?>
 
   <main>
-    <!-- PAGE HERO -->
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="index.php">Home</a>
+          <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
-          <a href="servicos.php">Serviços</a>
+          <a href="/servicos">Serviços</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Gestão de Ciclos</span>
         </nav>
@@ -34,7 +56,6 @@
       </div>
     </section>
 
-    <!-- CONTENT -->
     <section class="content-section" aria-label="Sobre Gestão de Ciclos">
       <div class="container">
         <div class="two-col">
@@ -95,32 +116,24 @@
           </div>
         </div>
 
-        <!-- Highlight Cards -->
         <div class="highlight-cards">
           <div class="highlight-card" data-fade>
             <div class="highlight-card__icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-                <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
-                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
             </div>
             <div class="highlight-card__title">Gestão ponta a ponta</div>
             <p class="highlight-card__text">Cobertura completa de todo o ciclo processual, da entrada da demanda ao encerramento definitivo.</p>
           </div>
           <div class="highlight-card" data-fade data-delay="100">
             <div class="highlight-card__icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
-              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
             </div>
             <div class="highlight-card__title">Auditagem estratégica</div>
             <p class="highlight-card__text">Revisão contínua que indica o melhor momento e a melhor ação para cada demanda do portfólio.</p>
           </div>
           <div class="highlight-card" data-fade data-delay="200">
             <div class="highlight-card__icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-                <circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
-              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
             </div>
             <div class="highlight-card__title">Atuação sob medida</div>
             <p class="highlight-card__text">Flexibilidade para atuar em ciclos específicos ou assumir a gestão completa, conforme a necessidade.</p>
@@ -129,13 +142,12 @@
       </div>
     </section>
 
-    <!-- PAGE CTA -->
     <section class="page-cta">
       <div class="container">
         <h2 class="page-cta__title" data-fade>Quer uma gestão de passivos verdadeiramente estratégica?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Conte com a JPe UNE para estruturar e conduzir os ciclos do seu contencioso com inteligência.</p>
         <div data-fade data-delay="200">
-          <a href="contato.php" class="btn btn-white">Fale com nossa equipe</a>
+          <a href="/contato" class="btn btn-white">Fale com nossa equipe</a>
         </div>
       </div>
     </section>

@@ -3,24 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diferenciais | JPe UNE</title>
-  <meta name="description" content="Conheça os diferenciais da JPe UNE: complementamos seu time jurídico com inteligência de dados, negociação humana e foco em resultado financeiro real.">
-  <meta property="og:title" content="Diferenciais | JPe UNE">
-  <meta property="og:description" content="O que torna a JPe UNE diferente: foco em resultado financeiro, inteligência de dados e eliminação de despesas invisíveis.">
-  <link rel="icon" type="image/png" href="images/favi.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/pages.css">
+
+  <!-- SEO Principal -->
+  <title>Diferenciais | JPe UNE — Por que Escolher Negociação Estratégica</title>
+  <meta name="description" content="Saiba o que diferencia a JPe UNE: complementamos seu time jurídico, focamos em resultado financeiro real, inteligência de dados e eliminamos despesas invisíveis no contencioso.">
+  <meta name="keywords" content="diferenciais JPe UNE, negociação estratégica diferencial, gestão contencioso, resultado financeiro jurídico, inteligência de dados jurídica">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/diferenciais">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/diferenciais">
+  <meta property="og:title" content="Diferenciais | JPe UNE — Por que Escolher Negociação Estratégica">
+  <meta property="og:description" content="O que torna a JPe UNE diferente: complementamos seu time jurídico, focamos em resultado financeiro real e eliminamos despesas invisíveis no contencioso.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Diferenciais | JPe UNE">
+  <meta name="twitter:description" content="O que torna a JPe UNE diferente: foco em resultado financeiro, inteligência de dados e eliminação de despesas invisíveis no contencioso.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
 </head>
 <body>
 
 <?php include 'includes/header.php'; ?>
 
   <main>
-    <!-- PAGE HERO -->
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="index.php">Home</a>
+          <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Diferenciais</span>
         </nav>
@@ -32,7 +54,6 @@
       </div>
     </section>
 
-    <!-- DIFERENCIAIS -->
     <section class="content-section" aria-label="Nossos diferenciais">
       <div class="container">
         <div style="max-width: 680px; margin-bottom: 3rem;" data-fade>
@@ -45,7 +66,6 @@
 
         <div class="diferenciais-large">
 
-          <!-- 1 -->
           <div class="diferencial-large-card" data-fade>
             <div class="diferencial-large-card__num">01</div>
             <div class="diferencial-large-card__icon" aria-hidden="true">
@@ -62,7 +82,6 @@
             </div>
           </div>
 
-          <!-- 2 -->
           <div class="diferencial-large-card" data-fade>
             <div class="diferencial-large-card__num">02</div>
             <div class="diferencial-large-card__icon" aria-hidden="true">
@@ -78,7 +97,6 @@
             </div>
           </div>
 
-          <!-- 3 -->
           <div class="diferencial-large-card" data-fade>
             <div class="diferencial-large-card__num">03</div>
             <div class="diferencial-large-card__icon" aria-hidden="true">
@@ -94,7 +112,6 @@
             </div>
           </div>
 
-          <!-- 4 -->
           <div class="diferencial-large-card" data-fade>
             <div class="diferencial-large-card__num">04</div>
             <div class="diferencial-large-card__icon" aria-hidden="true">
@@ -110,7 +127,6 @@
             </div>
           </div>
 
-          <!-- 5 -->
           <div class="diferencial-large-card" data-fade>
             <div class="diferencial-large-card__num">05</div>
             <div class="diferencial-large-card__icon" aria-hidden="true">
@@ -130,7 +146,6 @@
       </div>
     </section>
 
-    <!-- PARA QUEM -->
     <section class="content-section content-section--alt" aria-label="Para quem">
       <div class="container">
         <div style="margin-bottom: 2rem;" data-fade>
@@ -172,13 +187,12 @@
       </div>
     </section>
 
-    <!-- PAGE CTA -->
     <section class="page-cta">
       <div class="container">
         <h2 class="page-cta__title" data-fade>Quer ver esses diferenciais em prática?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Solicite um diagnóstico estratégico e descubra o potencial de economia no seu portfólio.</p>
         <div data-fade data-delay="200">
-          <a href="contato.php" class="btn btn-white">Solicitar diagnóstico</a>
+          <a href="/contato" class="btn btn-white">Solicitar diagnóstico</a>
         </div>
       </div>
     </section>

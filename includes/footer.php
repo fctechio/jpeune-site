@@ -5,8 +5,8 @@
     <div class="container">
       <div class="footer__grid">
         <div>
-          <a href="index.php" class="footer__logo">
-            <img src="images/JPeUne.svg" alt="JPe UNE">
+          <a href="/" class="footer__logo">
+            <img src="/images/JPeUne.svg" alt="JPe UNE">
           </a>
           <p class="footer__desc">
             Escritório especializado em negociação estratégica e gestão de contencioso de alto volume. Sede em Porto Alegre, atuação nacional.
@@ -36,20 +36,20 @@
         <div>
           <h4 class="footer__heading">Navegação</h4>
           <ul class="footer__links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="quem-somos.php">Quem Somos</a></li>
-            <li><a href="diferenciais.php">Diferenciais</a></li>
-            <li><a href="contato.php">Contato</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/quem-somos">Quem Somos</a></li>
+            <li><a href="/diferenciais">Diferenciais</a></li>
+            <li><a href="/contato">Contato</a></li>
           </ul>
         </div>
 
         <div>
           <h4 class="footer__heading">Serviços</h4>
           <ul class="footer__links">
-            <li><a href="celula-de-acordos.php">Célula de Acordos</a></li>
-            <li><a href="diagnostico-estrategico.php">Diagnóstico Estratégico</a></li>
-            <li><a href="integracao-dados-estrategia.php">Integração de Dados</a></li>
-            <li><a href="gestao-de-ciclos.php">Gestão de Ciclos</a></li>
+            <li><a href="/celula-de-acordos">Célula de Acordos</a></li>
+            <li><a href="/diagnostico-estrategico">Diagnóstico Estratégico</a></li>
+            <li><a href="/integracao-dados-estrategia">Integração de Dados</a></li>
+            <li><a href="/gestao-de-ciclos">Gestão de Ciclos</a></li>
           </ul>
         </div>
 
@@ -80,7 +80,42 @@
   </footer>
 
   <a href="https://wa.me/5551999999999" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
-    <img src="images/social.png" alt="WhatsApp">
+    <img src="/images/social.png" alt="WhatsApp">
   </a>
 
-  <script src="js/main.js"></script>
+  <!-- JSON-LD: Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "JPe UNE",
+    "alternateName": "JPe UNE Negociação Estratégica",
+    "description": "Escritório especializado em negociação estratégica e gestão de contencioso de alto volume. Sede em Porto Alegre, atuação nacional.",
+    "url": "https://jpeune.com.br",
+    "logo": "https://jpeune.com.br/images/JPeUne.svg",
+    "email": "contato@jpeune.com.br",
+    "telephone": "+5551999999999",
+    "foundingDate": "2025-04",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Porto Alegre",
+      "addressRegion": "RS",
+      "addressCountry": "BR"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Brasil"
+    },
+    "serviceType": [
+      "Negociação Estratégica de Passivos",
+      "Gestão de Contencioso de Alto Volume",
+      "Célula de Acordos Jurídicos",
+      "Diagnóstico Estratégico de Passivos",
+      "Integração de Dados Jurídicos",
+      "Gestão de Ciclos Processuais"
+    ],
+    "sameAs": []
+  }
+  </script>
+
+  <script src="/js/main.js"></script>

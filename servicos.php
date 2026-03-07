@@ -3,24 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços | JPe UNE</title>
-  <meta name="description" content="Conheça todas as soluções da JPe UNE: Célula de Acordos, Diagnóstico Estratégico de Passivos, Integração de Dados e Gestão de Ciclos.">
-  <meta property="og:title" content="Serviços | JPe UNE">
-  <meta property="og:description" content="Soluções integradas para a gestão estratégica do seu contencioso. Do diagnóstico ao encerramento definitivo.">
-  <link rel="icon" type="image/png" href="images/favi.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/pages.css">
+
+  <!-- SEO Principal -->
+  <title>Serviços | JPe UNE — Soluções para Gestão de Contencioso</title>
+  <meta name="description" content="Soluções integradas para gestão de contencioso: Célula de Acordos, Diagnóstico Estratégico de Passivos, Integração de Dados e Gestão de Ciclos. Do diagnóstico ao encerramento definitivo.">
+  <meta name="keywords" content="serviços jurídicos, célula de acordos, diagnóstico estratégico, gestão de passivos, integração de dados jurídicos, gestão de ciclos processuais">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/servicos">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/servicos">
+  <meta property="og:title" content="Serviços | JPe UNE — Soluções para Gestão de Contencioso">
+  <meta property="og:description" content="Soluções integradas para gestão estratégica do contencioso: Célula de Acordos, Diagnóstico Estratégico, Integração de Dados e Gestão de Ciclos. Atuação nacional.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Serviços | JPe UNE — Soluções para Gestão de Contencioso">
+  <meta name="twitter:description" content="Célula de Acordos, Diagnóstico Estratégico, Integração de Dados e Gestão de Ciclos. Soluções integradas para seu contencioso.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
 </head>
 <body>
 
 <?php include 'includes/header.php'; ?>
 
   <main>
-    <!-- PAGE HERO -->
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="index.php">Home</a>
+          <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Serviços</span>
         </nav>
@@ -32,7 +54,6 @@
       </div>
     </section>
 
-    <!-- SERVICE CARDS -->
     <section class="content-section" aria-label="Nossas soluções">
       <div class="container">
         <div class="text-center" style="margin-bottom: 3rem;">
@@ -45,7 +66,6 @@
 
         <div class="service-large-grid">
 
-          <!-- Célula de Acordos -->
           <div class="service-large-card" data-fade>
             <div class="service-large-card__icon" aria-hidden="true">
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -57,10 +77,9 @@
             <p class="service-large-card__desc">
               Análise técnica e atuação direcionada à composição de acordos. Integramos métricas reais à expertise de especialistas para transformar processos em acordos estratégicos, protegendo o fluxo de caixa com soluções personalizadas.
             </p>
-            <a href="celula-de-acordos.php" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="/celula-de-acordos" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
-          <!-- Diagnóstico Estratégico -->
           <div class="service-large-card" data-fade data-delay="100">
             <div class="service-large-card__icon" aria-hidden="true">
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -72,10 +91,9 @@
             <p class="service-large-card__desc">
               Mapeamento detalhado de riscos, análise de tendências decisórias e revisão de valores já suportados, identificando oportunidades reais de economia. A base técnica que orienta negociações mais precisas.
             </p>
-            <a href="diagnostico-estrategico.php" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="/diagnostico-estrategico" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
-          <!-- Integração de Dados -->
           <div class="service-large-card" data-fade data-delay="200">
             <div class="service-large-card__icon" aria-hidden="true">
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -86,10 +104,9 @@
             <p class="service-large-card__desc">
               Analisamos pedidos, documentos e comportamento dos tribunais para antecipar resultados e reduzir incertezas. Transformamos dados em estratégias de caixa focadas na redução efetiva do passivo.
             </p>
-            <a href="integracao-dados-estrategia.php" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="/integracao-dados-estrategia" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
-          <!-- Gestão de Ciclos -->
           <div class="service-large-card" data-fade data-delay="300">
             <div class="service-large-card__icon" aria-hidden="true">
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -101,20 +118,19 @@
             <p class="service-large-card__desc">
               Cobrimos todo o caminho, do recebimento da demanda até o encerramento definitivo. Ciclos estruturados com auditagem estratégica indicando o melhor momento para cada intervenção — ponta a ponta ou em ciclos específicos.
             </p>
-            <a href="gestao-de-ciclos.php" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="/gestao-de-ciclos" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
         </div>
       </div>
     </section>
 
-    <!-- PAGE CTA -->
     <section class="page-cta">
       <div class="container">
         <h2 class="page-cta__title" data-fade>Não sabe por onde começar?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Nosso diagnóstico estratégico mapeia seu portfólio e indica as oportunidades de maior impacto.</p>
         <div data-fade data-delay="200">
-          <a href="contato.php" class="btn btn-white">Solicitar diagnóstico</a>
+          <a href="/contato" class="btn btn-white">Solicitar diagnóstico</a>
         </div>
       </div>
     </section>

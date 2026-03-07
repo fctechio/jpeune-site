@@ -3,26 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Célula de Acordos | JPe UNE</title>
-  <meta name="description" content="Célula de Acordos JPe UNE: análise técnica e atuação direcionada à composição de acordos estratégicos que protegem o fluxo de caixa da sua empresa.">
-  <meta property="og:title" content="Célula de Acordos | JPe UNE">
-  <meta property="og:description" content="Transformamos processos em acordos estratégicos com soluções personalizadas e previsibilidade orçamentária.">
-  <link rel="icon" type="image/png" href="images/favi.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/pages.css">
+
+  <!-- SEO Principal -->
+  <title>Célula de Acordos | JPe UNE — Acordos Estratégicos de Alto Volume</title>
+  <meta name="description" content="Transformamos processos em acordos estratégicos. Análise técnica e atuação direcionada à composição de acordos que protegem seu fluxo de caixa com soluções personalizadas e previsibilidade orçamentária.">
+  <meta name="keywords" content="célula de acordos, acordos jurídicos estratégicos, negociação processual, proteção fluxo de caixa, redução de passivos, gestão contencioso">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/celula-de-acordos">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/celula-de-acordos">
+  <meta property="og:title" content="Célula de Acordos | JPe UNE — Acordos Estratégicos de Alto Volume">
+  <meta property="og:description" content="Integramos métricas reais à expertise de especialistas para transformar processos em acordos estratégicos que protegem o fluxo de caixa com soluções personalizadas.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Célula de Acordos | JPe UNE">
+  <meta name="twitter:description" content="Transformamos processos em acordos estratégicos. Análise técnica, proteção do fluxo de caixa e previsibilidade orçamentária.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
 </head>
 <body>
 
 <?php include 'includes/header.php'; ?>
 
   <main>
-    <!-- PAGE HERO -->
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="index.php">Home</a>
+          <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
-          <a href="servicos.php">Serviços</a>
+          <a href="/servicos">Serviços</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Célula de Acordos</span>
         </nav>
@@ -34,7 +56,6 @@
       </div>
     </section>
 
-    <!-- CONTENT -->
     <section class="content-section" aria-label="Sobre a Célula de Acordos">
       <div class="container">
         <div class="two-col">
@@ -88,31 +109,24 @@
           </div>
         </div>
 
-        <!-- Highlight Cards -->
         <div class="highlight-cards">
           <div class="highlight-card" data-fade>
             <div class="highlight-card__icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </div>
             <div class="highlight-card__title">Análise técnica</div>
             <p class="highlight-card__text">Cada processo é avaliado com base em dados reais, tendências jurisprudenciais e cálculo de risco.</p>
           </div>
           <div class="highlight-card" data-fade data-delay="100">
             <div class="highlight-card__icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-                <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
             </div>
             <div class="highlight-card__title">Proteção do fluxo de caixa</div>
             <p class="highlight-card__text">Acordos construídos para preservar o caixa, com condições de pagamento alinhadas à realidade da empresa.</p>
           </div>
           <div class="highlight-card" data-fade data-delay="200">
             <div class="highlight-card__icon" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
-              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
             </div>
             <div class="highlight-card__title">Previsibilidade orçamentária</div>
             <p class="highlight-card__text">Encerramento programado de passivos que permite planejamento financeiro preciso e redução de provisões.</p>
@@ -121,13 +135,12 @@
       </div>
     </section>
 
-    <!-- PAGE CTA -->
     <section class="page-cta">
       <div class="container">
         <h2 class="page-cta__title" data-fade>Quer transformar seus processos em acordos estratégicos?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Fale com nossa equipe e solicite uma avaliação inicial do seu portfólio.</p>
         <div data-fade data-delay="200">
-          <a href="contato.php" class="btn btn-white">Solicitar avaliação</a>
+          <a href="/contato" class="btn btn-white">Solicitar avaliação</a>
         </div>
       </div>
     </section>

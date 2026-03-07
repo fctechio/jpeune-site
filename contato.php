@@ -3,24 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato | JPe UNE</title>
-  <meta name="description" content="Entre em contato com a JPe UNE. Solicite um diagnóstico estratégico de passivos e descubra como podemos reduzir seus custos com litígios.">
-  <meta property="og:title" content="Contato | JPe UNE">
-  <meta property="og:description" content="Fale com a JPe UNE. Estamos prontos para agregar inteligência estratégica à sua gestão de passivos.">
-  <link rel="icon" type="image/png" href="images/favi.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/pages.css">
+
+  <!-- SEO Principal -->
+  <title>Contato | JPe UNE — Solicite seu Diagnóstico Estratégico</title>
+  <meta name="description" content="Entre em contato com a JPe UNE. Solicite um diagnóstico estratégico de passivos e descubra como reduzir custos com litígios. Retorno em até 24 horas úteis. Porto Alegre, atuação nacional.">
+  <meta name="keywords" content="contato JPe UNE, solicitar diagnóstico, negociação passivos, escritório jurídico Porto Alegre, reduzir custos litígio">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/contato">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/contato">
+  <meta property="og:title" content="Contato | JPe UNE — Solicite seu Diagnóstico Estratégico">
+  <meta property="og:description" content="Fale com a JPe UNE. Solicite um diagnóstico estratégico de passivos e descubra como agregar inteligência à sua gestão de contencioso.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contato | JPe UNE — Solicite seu Diagnóstico">
+  <meta name="twitter:description" content="Fale com a JPe UNE. Retorno em até 24 horas úteis. Especialistas em negociação estratégica de passivos.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
 </head>
 <body>
 
 <?php include 'includes/header.php'; ?>
 
   <main>
-    <!-- PAGE HERO -->
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="index.php">Home</a>
+          <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Contato</span>
         </nav>
@@ -32,11 +54,9 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
     <section class="content-section" aria-label="Formulário de contato">
       <div class="container">
         <div class="contact-grid">
-          <!-- Formulário -->
           <div>
             <div style="margin-bottom: 2rem;" data-fade>
               <span class="section-label">Fale conosco</span>
@@ -89,7 +109,6 @@
             </form>
           </div>
 
-          <!-- Sidebar -->
           <div data-fade data-delay="200">
             <div class="contact-sidebar">
               <div class="contact-sidebar__heading">Informações de contato</div>
@@ -150,7 +169,6 @@
       </div>
     </section>
 
-    <!-- FAQ -->
     <section class="content-section content-section--alt" aria-label="Perguntas frequentes">
       <div class="container">
         <div style="max-width: 800px; margin: 0 auto;">
@@ -165,9 +183,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 A JPe UNE substitui meu escritório atual?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>Não. Atuamos de forma complementar, potencializando os escritórios parceiros. Nossa função é específica: assumir a frente estratégica de negociação e gestão de passivos, enquanto o escritório atual mantém a condução processual. O resultado é um ecossistema jurídico mais robusto e eficiente para o cliente.</p>
@@ -177,9 +193,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 Em qual momento do processo vocês podem atuar?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>Em qualquer fase — do recebimento da demanda até a execução. Cada momento do ciclo processual oferece oportunidades específicas de atuação estratégica. Avaliamos o melhor ponto de intervenção com base nos dados do processo e no perfil do passivo.</p>
@@ -189,9 +203,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 Qual o principal benefício para minha empresa?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>Os três principais benefícios são: redução concreta de custos com litígios, previsibilidade orçamentária através de dados e análises precisas, e encerramento antecipado de passivos que preserva o caixa e a reputação da empresa.</p>
@@ -201,9 +213,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 Vocês atuam em âmbito nacional?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>Sim, com sede em Porto Alegre e atuação em todo o Brasil. Nossa metodologia é adaptável a diferentes jurisdições, e nossa rede de parceiros garante presença onde seu contencioso estiver localizado.</p>
@@ -213,9 +223,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 Como é feita a integração com o jurídico interno?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>De forma personalizada e não invasiva, adaptando nossos ciclos e processos à estrutura já existente na empresa. Trabalhamos junto com o time interno e os escritórios parceiros, não no lugar deles. A transição é gradual e toda a comunicação é documentada.</p>
@@ -225,9 +233,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 Os acordos são sempre recomendados?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>Não. Cada caso é analisado individualmente. Acordar é a melhor opção em muitas situações, mas não em todas. Nossa análise técnica identifica quando um acordo é vantajoso, quando é preferível aguardar, e quando uma estratégia diferente produzirá melhores resultados para o cliente.</p>
@@ -237,9 +243,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 Como funciona a remuneração da JPe UNE?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>Trabalhamos com modelo orientado a resultado, diretamente alinhado aos objetivos financeiros do cliente. Isso significa que nosso sucesso está vinculado ao sucesso do cliente — uma estrutura que garante comprometimento genuíno com os resultados. Os detalhes são definidos em proposta personalizada após o diagnóstico inicial.</p>
@@ -249,9 +253,7 @@
             <div class="faq-item">
               <button class="faq-question" aria-expanded="false">
                 Aguardar a decisão judicial ou construir um acordo?
-                <span class="faq-icon" aria-hidden="true">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                </span>
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
               </button>
               <div class="faq-answer">
                 <p>Depende da análise técnica — e é exatamente isso que fazemos. Avaliamos o perfil do julgador, tendências decisórias do tribunal, valor em risco, prazo estimado e custo de oportunidade. Com esses dados, a resposta deixa de ser uma aposta e passa a ser uma decisão estratégica fundamentada.</p>

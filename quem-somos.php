@@ -3,24 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quem Somos | JPe UNE</title>
-  <meta name="description" content="Conheça a JPe UNE: fundada em 2025, com mais de 20 anos de experiência jurídica e atuação nacional em negociação estratégica de passivos.">
-  <meta property="og:title" content="Quem Somos | JPe UNE">
-  <meta property="og:description" content="A JPe UNE nasceu de uma necessidade sentida na prática para combater os desafios do contencioso de alto volume.">
-  <link rel="icon" type="image/png" href="images/favi.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/pages.css">
+
+  <!-- SEO Principal -->
+  <title>Quem Somos | JPe UNE — Negociação Estratégica de Passivos</title>
+  <meta name="description" content="Conheça a JPe UNE: fundada em 2025 com mais de 20 anos de experiência jurídica. Especialistas em negociação estratégica de passivos e gestão de contencioso de alto volume em todo o Brasil.">
+  <meta name="keywords" content="JPe UNE, quem somos, escritório jurídico Porto Alegre, negociação de passivos, gestão contencioso, fundadoras">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/quem-somos">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/quem-somos">
+  <meta property="og:title" content="Quem Somos | JPe UNE — Negociação Estratégica de Passivos">
+  <meta property="og:description" content="Conheça a equipe e a história da JPe UNE: mais de 20 anos de experiência jurídica combinada, fundada em 2025 para transformar a gestão de passivos no Brasil.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Quem Somos | JPe UNE">
+  <meta name="twitter:description" content="Conheça a equipe e a história da JPe UNE: especialistas em negociação estratégica de passivos com mais de 20 anos de experiência.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
 </head>
 <body>
 
 <?php include 'includes/header.php'; ?>
 
   <main>
-    <!-- PAGE HERO -->
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="index.php">Home</a>
+          <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Quem Somos</span>
         </nav>
@@ -32,7 +54,6 @@
       </div>
     </section>
 
-    <!-- A EMPRESA -->
     <section class="content-section" aria-label="A Empresa">
       <div class="container">
         <div class="two-col">
@@ -75,7 +96,6 @@
       </div>
     </section>
 
-    <!-- AS FUNDADORAS -->
     <section class="content-section content-section--dark" aria-label="As Fundadoras">
       <div class="container">
         <div class="text-center" style="margin-bottom: 3rem;">
@@ -104,7 +124,6 @@
       </div>
     </section>
 
-    <!-- RESULTADOS -->
     <section class="content-section section--gray" aria-label="Resultados">
       <div class="container">
         <div class="text-center" style="margin-bottom: 3rem;">
@@ -131,13 +150,12 @@
       </div>
     </section>
 
-    <!-- PAGE CTA -->
     <section class="page-cta">
       <div class="container">
         <h2 class="page-cta__title" data-fade>Pronto para transformar sua gestão de passivos?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Entre em contato e descubra como a JPe UNE pode agregar valor ao seu jurídico.</p>
         <div data-fade data-delay="200">
-          <a href="contato.php" class="btn btn-white">Fale conosco</a>
+          <a href="/contato" class="btn btn-white">Fale conosco</a>
         </div>
       </div>
     </section>

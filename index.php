@@ -3,14 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Principal -->
   <title>JPe UNE | Negociação Estratégica e Gestão de Passivos Jurídicos</title>
-  <meta name="description" content="JPe UNE — escritório especializado em negociação estratégica, gestão de contencioso de alto volume e redução de passivos. Atuação nacional, sede em Porto Alegre.">
-  <meta property="og:title" content="JPe UNE | Negociação Estratégica e Gestão de Passivos">
-  <meta property="og:description" content="Menos litígio. Mais previsibilidade. Soluções integradas para a gestão estratégica do seu contencioso.">
+  <meta name="description" content="Escritório especializado em negociação estratégica e gestão de contencioso de alto volume. +1.000 acordos celebrados. Sede em Porto Alegre, atuação nacional.">
+  <meta name="keywords" content="negociação estratégica, gestão de passivos, contencioso de alto volume, acordos jurídicos, Porto Alegre, advogado empresarial">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/">
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
   <meta property="og:type" content="website">
-  <link rel="icon" type="image/png" href="images/favi.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/home.css">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/">
+  <meta property="og:title" content="JPe UNE | Negociação Estratégica e Gestão de Passivos">
+  <meta property="og:description" content="Menos litígio. Mais previsibilidade. Escritório especializado em negociação estratégica e gestão de contencioso de alto volume. +1.000 acordos. Atuação nacional.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JPe UNE | Negociação Estratégica e Gestão de Passivos">
+  <meta name="twitter:description" content="Menos litígio. Mais previsibilidade. Escritório especializado em negociação estratégica e gestão de contencioso de alto volume.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
 
@@ -32,8 +54,8 @@
             Nossa solução envolve negociação estratégica e gestão de passivos focada em redução de custos e encerramento de demandas.
           </p>
           <div class="hero__actions" data-fade data-delay="300">
-            <a href="contato.php" class="btn btn-gold">Solicitar diagnóstico</a>
-            <a href="quem-somos.php" class="btn btn-outline">Conhecer a empresa</a>
+            <a href="/contato" class="btn btn-gold">Solicitar diagnóstico</a>
+            <a href="/quem-somos" class="btn btn-outline">Conhecer a empresa</a>
           </div>
         </div>
       </div>
@@ -80,7 +102,6 @@
         </div>
 
         <div class="services-grid">
-          <!-- Célula de Acordos -->
           <div class="service-card" data-fade>
             <div class="service-card__icon" aria-hidden="true">
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -90,10 +111,9 @@
             </div>
             <div class="service-card__title">Célula de Acordos</div>
             <p class="service-card__desc">Análise técnica e atuação direcionada à composição de acordos, protegendo o fluxo de caixa com soluções personalizadas.</p>
-            <a href="celula-de-acordos.php" class="service-card__link">Saiba mais →</a>
+            <a href="/celula-de-acordos" class="service-card__link">Saiba mais →</a>
           </div>
 
-          <!-- Integração de Dados -->
           <div class="service-card" data-fade data-delay="100">
             <div class="service-card__icon" aria-hidden="true">
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -102,10 +122,9 @@
             </div>
             <div class="service-card__title">Integração de Dados e Estratégia</div>
             <p class="service-card__desc">Analisamos pedidos, documentos e comportamento dos tribunais para antecipar resultados e reduzir incertezas.</p>
-            <a href="integracao-dados-estrategia.php" class="service-card__link">Saiba mais →</a>
+            <a href="/integracao-dados-estrategia" class="service-card__link">Saiba mais →</a>
           </div>
 
-          <!-- Diagnóstico Estratégico -->
           <div class="service-card" data-fade data-delay="200">
             <div class="service-card__icon" aria-hidden="true">
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -115,10 +134,9 @@
             </div>
             <div class="service-card__title">Diagnóstico Estratégico de Passivos</div>
             <p class="service-card__desc">Mapeamento detalhado de riscos, análise de tendências decisórias e identificação de oportunidades reais de economia.</p>
-            <a href="diagnostico-estrategico.php" class="service-card__link">Saiba mais →</a>
+            <a href="/diagnostico-estrategico" class="service-card__link">Saiba mais →</a>
           </div>
 
-          <!-- Gestão de Ciclos -->
           <div class="service-card" data-fade data-delay="300">
             <div class="service-card__icon" aria-hidden="true">
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
@@ -128,7 +146,7 @@
             </div>
             <div class="service-card__title">Gestão de Ciclos</div>
             <p class="service-card__desc">Cobrimos todo o caminho, do recebimento da demanda até o encerramento definitivo, com auditagem estratégica.</p>
-            <a href="gestao-de-ciclos.php" class="service-card__link">Saiba mais →</a>
+            <a href="/gestao-de-ciclos" class="service-card__link">Saiba mais →</a>
           </div>
         </div>
       </div>
@@ -141,7 +159,7 @@
       <div class="container">
         <div class="about-strip__inner">
           <div class="about-strip__visual">
-            <img src="images/jpe-01.png" alt="JPe UNE">
+            <img src="/images/jpe-01.png" alt="JPe UNE — Equipe de negociação estratégica">
           </div>
           <div class="about-strip__text">
             <span class="section-label" data-fade>A empresa</span>
@@ -152,7 +170,7 @@
               Fundada em abril de 2025, a JPe UNE surgiu para combater os desafios do contencioso de alto volume: a ausência de um modelo que integrasse negociação estratégica, análise de dados e foco em economia real. Com sede em Porto Alegre e atuação nacional, unimos expertise jurídica de décadas com inteligência de dados para gerar resultados concretos.
             </p>
             <div data-fade data-delay="300">
-              <a href="quem-somos.php" class="btn btn-outline">Conheça nossa história</a>
+              <a href="/quem-somos" class="btn btn-outline">Conheça nossa história</a>
             </div>
             <div class="about-strip__stats" data-fade data-delay="400">
               <div>
@@ -216,7 +234,7 @@
         </div>
 
         <div style="text-align:center; margin-top: 2.5rem;" data-fade data-delay="300">
-          <a href="diferenciais.php" class="btn btn-gold">Ver todos os diferenciais</a>
+          <a href="/diferenciais" class="btn btn-gold">Ver todos os diferenciais</a>
         </div>
       </div>
     </section>
@@ -233,7 +251,7 @@
           Fale com a nossa equipe e descubra como podemos reduzir seus passivos com segurança jurídica.
         </p>
         <div data-fade data-delay="200">
-          <a href="contato.php" class="btn btn-white">Entre em contato</a>
+          <a href="/contato" class="btn btn-white">Entre em contato</a>
         </div>
       </div>
     </section>
