@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Bloquear acesso a arquivos internos
+Disallow: /includes/
+
+Sitemap: https://jpeune.com.br/sitemap.xml

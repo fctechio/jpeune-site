@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Principal -->
+  <title>Contato | JPe UNE — Solicite seu Diagnóstico Estratégico</title>
+  <meta name="description" content="Entre em contato com a JPe UNE. Solicite um diagnóstico estratégico de passivos e descubra como reduzir custos com litígios. Retorno em até 24 horas úteis. Porto Alegre, atuação nacional.">
+  <meta name="keywords" content="contato JPe UNE, solicitar diagnóstico, negociação passivos, escritório jurídico Porto Alegre, reduzir custos litígio">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="JPe UNE">
+  <link rel="canonical" href="https://jpeune.com.br/contato">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JPe UNE">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://jpeune.com.br/contato">
+  <meta property="og:title" content="Contato | JPe UNE — Solicite seu Diagnóstico Estratégico">
+  <meta property="og:description" content="Fale com a JPe UNE. Solicite um diagnóstico estratégico de passivos e descubra como agregar inteligência à sua gestão de contencioso.">
+  <meta property="og:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contato | JPe UNE — Solicite seu Diagnóstico">
+  <meta name="twitter:description" content="Fale com a JPe UNE. Retorno em até 24 horas úteis. Especialistas em negociação estratégica de passivos.">
+  <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favi.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+
+<?php include 'includes/header.php'; ?>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span class="sep" aria-hidden="true">/</span>
+          <span class="current">Contato</span>
+        </nav>
+        <h1 class="page-hero__title" data-fade>Contato</h1>
+        <p class="page-hero__sub" data-fade data-delay="100">
+          Estamos prontos para agregar inteligência estratégica à sua gestão de passivos. Fale conosco.
+        </p>
+        <div class="page-hero__accent" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="content-section" aria-label="Formulário de contato">
+      <div class="container">
+        <div class="contact-grid">
+          <div>
+            <div style="margin-bottom: 2rem;" data-fade>
+              <span class="section-label">Fale conosco</span>
+              <h2 style="margin-bottom: .75rem;">Envie sua mensagem</h2>
+              <p>Preencha o formulário e nossa equipe retornará em até 24 horas úteis.</p>
+            </div>
+
+            <form id="contact-form" class="contact-form" novalidate data-fade data-delay="100">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nome">Nome completo <span class="req">*</span></label>
+                  <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required autocomplete="name">
+                  <span class="error-msg">Por favor, informe seu nome completo.</span>
+                </div>
+                <div class="form-group">
+                  <label for="empresa">Empresa <span class="req">*</span></label>
+                  <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa" required autocomplete="organization">
+                  <span class="error-msg">Por favor, informe o nome da empresa.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">E-mail <span class="req">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="seu@email.com" required autocomplete="email">
+                  <span class="error-msg">Informe um e-mail válido.</span>
+                </div>
+                <div class="form-group">
+                  <label for="telefone">Telefone</label>
+                  <input type="tel" id="telefone" name="telefone" placeholder="(51) 9 9999-9999" autocomplete="tel">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem">Mensagem <span class="req">*</span></label>
+                <textarea id="mensagem" name="mensagem" placeholder="Descreva brevemente seu desafio ou necessidade…" required rows="6"></textarea>
+                <span class="error-msg">Por favor, escreva sua mensagem.</span>
+              </div>
+
+              <div class="form-success" role="alert" aria-live="polite">
+                Mensagem enviada com sucesso! Em breve entraremos em contato.
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-gold">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  Enviar mensagem
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div data-fade data-delay="200">
+            <div class="contact-sidebar">
+              <div class="contact-sidebar__heading">Informações de contato</div>
+              <div class="contact-info-list">
+                <div class="contact-info-item">
+                  <div class="contact-info-item__icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-info-item__label">E-mail</div>
+                    <div class="contact-info-item__value">
+                      <a href="mailto:contato@jpeune.com.br">contato@jpeune.com.br</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-info-item">
+                  <div class="contact-info-item__icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-info-item__label">Telefone</div>
+                    <div class="contact-info-item__value">
+                      <a href="tel:+5551999999999">51 9 9999.9999</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-info-item">
+                  <div class="contact-info-item__icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-info-item__label">Endereço</div>
+                    <div class="contact-info-item__value">Porto Alegre, RS — Brasil</div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 1.25rem;">
+                <div class="contact-info-item__label" style="margin-bottom:.75rem;">Redes sociais</div>
+                <div class="sidebar-social">
+                  <a href="#" aria-label="Instagram">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    Instagram
+                  </a>
+                  <a href="#" aria-label="LinkedIn">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    LinkedIn
+                  </a>
+                  <a href="#" aria-label="Facebook">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    Facebook
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section content-section--alt" aria-label="Perguntas frequentes">
+      <div class="container">
+        <div style="max-width: 800px; margin: 0 auto;">
+          <div style="margin-bottom: 2.5rem;" data-fade>
+            <span class="section-label">Dúvidas</span>
+            <h2 style="margin-bottom: .75rem;">Perguntas frequentes</h2>
+            <p>Respostas para as dúvidas mais comuns sobre nossos serviços e forma de atuação.</p>
+          </div>
+
+          <div class="faq-list" data-fade data-delay="100">
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                A JPe UNE substitui meu escritório atual?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>Não. Atuamos de forma complementar, potencializando os escritórios parceiros. Nossa função é específica: assumir a frente estratégica de negociação e gestão de passivos, enquanto o escritório atual mantém a condução processual. O resultado é um ecossistema jurídico mais robusto e eficiente para o cliente.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Em qual momento do processo vocês podem atuar?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>Em qualquer fase — do recebimento da demanda até a execução. Cada momento do ciclo processual oferece oportunidades específicas de atuação estratégica. Avaliamos o melhor ponto de intervenção com base nos dados do processo e no perfil do passivo.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Qual o principal benefício para minha empresa?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>Os três principais benefícios são: redução concreta de custos com litígios, previsibilidade orçamentária através de dados e análises precisas, e encerramento antecipado de passivos que preserva o caixa e a reputação da empresa.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Vocês atuam em âmbito nacional?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>Sim, com sede em Porto Alegre e atuação em todo o Brasil. Nossa metodologia é adaptável a diferentes jurisdições, e nossa rede de parceiros garante presença onde seu contencioso estiver localizado.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Como é feita a integração com o jurídico interno?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>De forma personalizada e não invasiva, adaptando nossos ciclos e processos à estrutura já existente na empresa. Trabalhamos junto com o time interno e os escritórios parceiros, não no lugar deles. A transição é gradual e toda a comunicação é documentada.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Os acordos são sempre recomendados?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>Não. Cada caso é analisado individualmente. Acordar é a melhor opção em muitas situações, mas não em todas. Nossa análise técnica identifica quando um acordo é vantajoso, quando é preferível aguardar, e quando uma estratégia diferente produzirá melhores resultados para o cliente.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Como funciona a remuneração da JPe UNE?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>Trabalhamos com modelo orientado a resultado, diretamente alinhado aos objetivos financeiros do cliente. Isso significa que nosso sucesso está vinculado ao sucesso do cliente — uma estrutura que garante comprometimento genuíno com os resultados. Os detalhes são definidos em proposta personalizada após o diagnóstico inicial.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Aguardar a decisão judicial ou construir um acordo?
+                <span class="faq-icon" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+              </button>
+              <div class="faq-answer">
+                <p>Depende da análise técnica — e é exatamente isso que fazemos. Avaliamos o perfil do julgador, tendências decisórias do tribunal, valor em risco, prazo estimado e custo de oportunidade. Com esses dados, a resposta deixa de ser uma aposta e passa a ser uma decisão estratégica fundamentada.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<?php include 'includes/footer.php'; ?>
+
+</body>
+</html>
