@@ -28,11 +28,11 @@
   <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/favi.png">
+  <link rel="icon" type="image/png" href="images/favi.png">
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="/css/global.css">
-  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 
@@ -54,8 +54,8 @@
             Nossa solução envolve negociação estratégica e gestão de passivos focada em redução de custos e encerramento de demandas.
           </p>
           <div class="hero__actions" data-fade data-delay="300">
-            <a href="/contato" class="btn btn-gold">Solicitar diagnóstico</a>
-            <a href="/quem-somos" class="btn btn-outline">Conhecer a empresa</a>
+            <a href="contato" class="btn btn-gold">Solicitar diagnóstico</a>
+            <a href="quem-somos" class="btn btn-outline">Conhecer a empresa</a>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
             </div>
             <div class="service-card__title">Célula de Acordos</div>
             <p class="service-card__desc">Análise técnica e atuação direcionada à composição de acordos, protegendo o fluxo de caixa com soluções personalizadas.</p>
-            <a href="/celula-de-acordos" class="service-card__link">Saiba mais →</a>
+            <a href="celula-de-acordos" class="service-card__link">Saiba mais →</a>
           </div>
 
           <div class="service-card" data-fade data-delay="100">
@@ -122,7 +122,7 @@
             </div>
             <div class="service-card__title">Integração de Dados e Estratégia</div>
             <p class="service-card__desc">Analisamos pedidos, documentos e comportamento dos tribunais para antecipar resultados e reduzir incertezas.</p>
-            <a href="/integracao-dados-estrategia" class="service-card__link">Saiba mais →</a>
+            <a href="integracao-dados-estrategia" class="service-card__link">Saiba mais →</a>
           </div>
 
           <div class="service-card" data-fade data-delay="200">
@@ -134,7 +134,7 @@
             </div>
             <div class="service-card__title">Diagnóstico Estratégico de Passivos</div>
             <p class="service-card__desc">Mapeamento detalhado de riscos, análise de tendências decisórias e identificação de oportunidades reais de economia.</p>
-            <a href="/diagnostico-estrategico" class="service-card__link">Saiba mais →</a>
+            <a href="diagnostico-estrategico" class="service-card__link">Saiba mais →</a>
           </div>
 
           <div class="service-card" data-fade data-delay="300">
@@ -146,7 +146,7 @@
             </div>
             <div class="service-card__title">Gestão de Ciclos</div>
             <p class="service-card__desc">Cobrimos todo o caminho, do recebimento da demanda até o encerramento definitivo, com auditagem estratégica.</p>
-            <a href="/gestao-de-ciclos" class="service-card__link">Saiba mais →</a>
+            <a href="gestao-de-ciclos" class="service-card__link">Saiba mais →</a>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@
       <div class="container">
         <div class="about-strip__inner">
           <div class="about-strip__visual">
-            <img src="/images/jpe-01.png" alt="JPe UNE — Equipe de negociação estratégica">
+            <img src="images/jpe-01.png" alt="JPe UNE — Equipe de negociação estratégica">
           </div>
           <div class="about-strip__text">
             <span class="section-label" data-fade>A empresa</span>
@@ -170,7 +170,7 @@
               Fundada em abril de 2025, a JPe UNE surgiu para combater os desafios do contencioso de alto volume: a ausência de um modelo que integrasse negociação estratégica, análise de dados e foco em economia real. Com sede em Porto Alegre e atuação nacional, unimos expertise jurídica de décadas com inteligência de dados para gerar resultados concretos.
             </p>
             <div data-fade data-delay="300">
-              <a href="/quem-somos" class="btn btn-outline">Conheça nossa história</a>
+              <a href="quem-somos" class="btn btn-outline">Conheça nossa história</a>
             </div>
             <div class="about-strip__stats" data-fade data-delay="400">
               <div>
@@ -234,7 +234,7 @@
         </div>
 
         <div style="text-align:center; margin-top: 2.5rem;" data-fade data-delay="300">
-          <a href="/diferenciais" class="btn btn-gold">Ver todos os diferenciais</a>
+          <a href="diferenciais" class="btn btn-gold">Ver todos os diferenciais</a>
         </div>
       </div>
     </section>
@@ -251,7 +251,7 @@
           Fale com a nossa equipe e descubra como podemos reduzir seus passivos com segurança jurídica.
         </p>
         <div data-fade data-delay="200">
-          <a href="/contato" class="btn btn-white">Entre em contato</a>
+          <a href="contato" class="btn btn-white">Entre em contato</a>
         </div>
       </div>
     </section>

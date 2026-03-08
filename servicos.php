@@ -28,11 +28,11 @@
   <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/favi.png">
+  <link rel="icon" type="image/png" href="images/favi.png">
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="/css/global.css">
-  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Serviços</span>
         </nav>
@@ -77,7 +77,7 @@
             <p class="service-large-card__desc">
               Análise técnica e atuação direcionada à composição de acordos. Integramos métricas reais à expertise de especialistas para transformar processos em acordos estratégicos, protegendo o fluxo de caixa com soluções personalizadas.
             </p>
-            <a href="/celula-de-acordos" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="celula-de-acordos" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
           <div class="service-large-card" data-fade data-delay="100">
@@ -91,7 +91,7 @@
             <p class="service-large-card__desc">
               Mapeamento detalhado de riscos, análise de tendências decisórias e revisão de valores já suportados, identificando oportunidades reais de economia. A base técnica que orienta negociações mais precisas.
             </p>
-            <a href="/diagnostico-estrategico" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="diagnostico-estrategico" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
           <div class="service-large-card" data-fade data-delay="200">
@@ -104,7 +104,7 @@
             <p class="service-large-card__desc">
               Analisamos pedidos, documentos e comportamento dos tribunais para antecipar resultados e reduzir incertezas. Transformamos dados em estratégias de caixa focadas na redução efetiva do passivo.
             </p>
-            <a href="/integracao-dados-estrategia" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="integracao-dados-estrategia" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
           <div class="service-large-card" data-fade data-delay="300">
@@ -118,7 +118,7 @@
             <p class="service-large-card__desc">
               Cobrimos todo o caminho, do recebimento da demanda até o encerramento definitivo. Ciclos estruturados com auditagem estratégica indicando o melhor momento para cada intervenção — ponta a ponta ou em ciclos específicos.
             </p>
-            <a href="/gestao-de-ciclos" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
+            <a href="gestao-de-ciclos" class="btn btn-gold" style="align-self: flex-start;">Saiba mais</a>
           </div>
 
         </div>
@@ -130,7 +130,7 @@
         <h2 class="page-cta__title" data-fade>Não sabe por onde começar?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Nosso diagnóstico estratégico mapeia seu portfólio e indica as oportunidades de maior impacto.</p>
         <div data-fade data-delay="200">
-          <a href="/contato" class="btn btn-white">Solicitar diagnóstico</a>
+          <a href="contato" class="btn btn-white">Solicitar diagnóstico</a>
         </div>
       </div>
     </section>
