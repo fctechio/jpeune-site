@@ -28,11 +28,11 @@
   <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/favi.png">
+  <link rel="icon" type="image/png" href="images/favi.png">
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="/css/global.css">
-  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Contato</span>
         </nav>

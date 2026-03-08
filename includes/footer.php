@@ -5,8 +5,8 @@
     <div class="container">
       <div class="footer__grid">
         <div>
-          <a href="/" class="footer__logo">
-            <img src="/images/JPeUne.svg" alt="JPe UNE">
+          <a href="./" class="footer__logo">
+            <img src="images/JPeUne.svg" alt="JPe UNE">
           </a>
           <p class="footer__desc">
             Escritório especializado em negociação estratégica e gestão de contencioso de alto volume. Sede em Porto Alegre, atuação nacional.
@@ -36,20 +36,20 @@
         <div>
           <h4 class="footer__heading">Navegação</h4>
           <ul class="footer__links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/quem-somos">Quem Somos</a></li>
-            <li><a href="/diferenciais">Diferenciais</a></li>
-            <li><a href="/contato">Contato</a></li>
+            <li><a href="./">Home</a></li>
+            <li><a href="quem-somos">Quem Somos</a></li>
+            <li><a href="diferenciais">Diferenciais</a></li>
+            <li><a href="contato">Contato</a></li>
           </ul>
         </div>
 
         <div>
           <h4 class="footer__heading">Serviços</h4>
           <ul class="footer__links">
-            <li><a href="/celula-de-acordos">Célula de Acordos</a></li>
-            <li><a href="/diagnostico-estrategico">Diagnóstico Estratégico</a></li>
-            <li><a href="/integracao-dados-estrategia">Integração de Dados</a></li>
-            <li><a href="/gestao-de-ciclos">Gestão de Ciclos</a></li>
+            <li><a href="celula-de-acordos">Célula de Acordos</a></li>
+            <li><a href="diagnostico-estrategico">Diagnóstico Estratégico</a></li>
+            <li><a href="integracao-dados-estrategia">Integração de Dados</a></li>
+            <li><a href="gestao-de-ciclos">Gestão de Ciclos</a></li>
           </ul>
         </div>
 
@@ -80,7 +80,7 @@
   </footer>
 
   <a href="https://wa.me/5551999999999" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
-    <img src="/images/social.png" alt="WhatsApp">
+    <img src="images/social.png" alt="WhatsApp">
   </a>
 
   <!-- JSON-LD: Structured Data -->
@@ -118,4 +118,4 @@
   }
   </script>
 
-  <script src="/js/main.js"></script>
+  <script src="js/main.js"></script>

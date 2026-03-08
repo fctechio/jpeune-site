@@ -28,11 +28,11 @@
   <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/favi.png">
+  <link rel="icon" type="image/png" href="images/favi.png">
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="/css/global.css">
-  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
 
@@ -42,9 +42,9 @@
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <span class="sep" aria-hidden="true">/</span>
-          <a href="/servicos">Serviços</a>
+          <a href="servicos">Serviços</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Integração de Dados</span>
         </nav>
@@ -128,7 +128,7 @@
         <h2 class="page-cta__title" data-fade>Pronto para tomar decisões baseadas em dados?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Entre em contato e descubra como transformamos os dados do seu portfólio em estratégia.</p>
         <div data-fade data-delay="200">
-          <a href="/contato" class="btn btn-white">Fale conosco</a>
+          <a href="contato" class="btn btn-white">Fale conosco</a>
         </div>
       </div>
     </section>

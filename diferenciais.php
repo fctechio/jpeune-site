@@ -28,11 +28,11 @@
   <meta name="twitter:image" content="https://jpeune.com.br/images/jpe-01.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/favi.png">
+  <link rel="icon" type="image/png" href="images/favi.png">
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="/css/global.css">
-  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
     <section class="page-hero">
       <div class="container">
         <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <span class="sep" aria-hidden="true">/</span>
           <span class="current">Diferenciais</span>
         </nav>
@@ -192,7 +192,7 @@
         <h2 class="page-cta__title" data-fade>Quer ver esses diferenciais em prática?</h2>
         <p class="page-cta__sub" data-fade data-delay="100">Solicite um diagnóstico estratégico e descubra o potencial de economia no seu portfólio.</p>
         <div data-fade data-delay="200">
-          <a href="/contato" class="btn btn-white">Solicitar diagnóstico</a>
+          <a href="contato" class="btn btn-white">Solicitar diagnóstico</a>
         </div>
       </div>
     </section>
