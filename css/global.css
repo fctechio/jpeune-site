@@ -180,7 +180,7 @@ p.large { font-size: 1.125rem; }
   white-space: nowrap;
 }
 .navbar__logo img {
-  max-height: 48px;
+  max-height: 62px;
   width: auto;
   display: block;
 }
@@ -364,7 +364,6 @@ p.large { font-size: 1.125rem; }
   height: 36px;
   width: auto;
   display: block;
-  filter: brightness(0) invert(1);
 }
 .footer__desc { font-size: .875rem; line-height: 1.7; color: rgba(255,255,255,.6); }
 .footer__heading {
